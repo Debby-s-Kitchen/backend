@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",          // which JavaScript version to output
+    "module": "commonjs",        // how files import each other (what Node expects)
+    "rootDir": "src",            // your TypeScript source lives here
+    "outDir": "dist",            // compiled JavaScript goes here (for production)
+    "strict": true,              // turns on the helpful, strict type checks
+    "esModuleInterop": true,     // lets us write: import express from "express"
+    "skipLibCheck": true         // don't re-check types inside node_modules
+  },
+  "include": ["src"]
+}
